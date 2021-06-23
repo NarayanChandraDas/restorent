@@ -1,0 +1,376 @@
+*{
+	margin:0;
+	padding: 0;
+}
+img{
+	vertical-align: middle;
+	border:none;
+}
+a,a:hover{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+
+.title{
+	margin-top: 50px;
+	text-align: center;
+
+}
+
+.title h3{
+	color: #CD9C07;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'yesevaOne';
+	margin-bottom: 20px;
+}
+.title img{
+	margin-bottom: 20px;
+}
+
+.f_title{
+	margin-top: 50px;
+	text-align: center;
+
+}
+
+.f_title h3{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	font-family: 'yesevaOne';
+	margin-bottom: 15px;
+}
+.f_title img{
+	margin-bottom: 15px;
+}
+
+/*Comnmon css end*/
+
+
+.mainmenu{
+	position: absolute;
+	z-index: 99;
+    margin-top: 0;
+	padding-top: 0;
+}
+.mainmenu .navbar-brand span{
+	color: #fff;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 30px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'yesevaOne';
+}
+.mainmenu .navbar-brand img{
+	position: relative;
+	margin-left: 100px;
+}
+.mainmenu span{
+	color: #fff;
+}
+.mainmenu .navbar-nav{
+	padding-left: 150px;
+	color: #fff;
+	margin-top: 0;
+	padding-top: 0;
+}
+.mainmenu .navbar-nav {
+
+}
+.mainmenu .navbar-nav .nav-item{
+	display: flex;
+ 	margin-left: 25px;	
+}
+.mainmenu .navbar-nav .nav-item .nav-link{
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: 'yesevaOne';
+} 
+.mainmenu .navbar-nav .nav-item .nav-link:before{
+	content: "";
+	background-color: #fff;
+	height: 2px;
+	width: 50px;
+	top: 0;
+	position: absolute;
+	visibility: hidden;
+}
+.mainmenu .navbar-nav .nav-item .nav-link:hover .mainmenu .navbar-nav .nav-item .nav-link:before{
+	visibility: visible;
+}
+.mainmenu .navbar-nav .nav-item .nav-link:hover{
+	color: #000;
+}
+.mainmenu .navbar-nav .nav-item  a span{
+	color:#DAB33E;
+	font-size: 20px;
+}
+.mainmenu .navbar-nav .nav-item  a span:hover{
+	color:#fff;
+}
+
+.banner_area{
+	background-image: url(../img/Banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.banner_area .content{	
+	padding-bottom: 100px;
+	text-align: center;
+	padding: 20px 100px;
+}
+
+.banner_area .content h1{
+	padding-top: 100px;
+	color: #fff;
+	font-size: 90px;
+	font-weight: 600;
+	text-transform: lowercase;
+	font-family: 'yesevaOne';	
+}
+
+.banner_area .content img{
+	height: 30%;
+	width: 20%;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.banner_area .content .button{
+	padding-top: 50px;
+}
+
+.banner_area .content .button input{
+	padding: 10px 25px;
+	background-color: rgba(0,0,0,.6);
+	color: #fff;
+	text-transform: uppercase;
+	border:1px solid #000;
+	margin-bottom: 130px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.banner_area .content .button input:hover{
+	background-color: transparent;
+	border:1px solid #fff;
+}
+
+/*Banner area end*/
+
+/*About area start*/
+.about_section{
+	padding-bottom: 40px;
+	background-color: #E9E9E9;
+}
+.about_section .ab_body{
+	text-align: center;
+}
+.about_section .ab_body p{
+	color: #000;
+	font-size: 16px;
+	padding: 0px 70px;
+	text-align: justify;
+}
+.about_section .ab_body img{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.about_section .right{
+	padding-top: 30px;
+	/*padding-left: 20px;*/
+	padding-right: 40px;
+}
+.about_section .right img{
+	padding-top: 0px;
+	padding-bottom: 20px;
+	height: 100%;
+	width: 100%;
+}
+/*About area end*/
+
+/*ingradients section css start*/
+.ingradients{
+	background-image: url(../img/fine_ingradients_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color:#fff;
+}
+.ingradients .title h3{
+	padding-top: 40px;
+	color: #fff!important;
+}
+.overlay{
+	margin: 100px 0px;
+	/*position: absolute;*/
+	height: 450px;
+	width: 450px;
+	background-color: rgba(0,0,0,.6);
+}
+.overlay p{
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-size: 16px;
+	font-family: 'yesevaOne';
+}
+.overlay .image_div{
+	text-align: center;
+}
+.overlay .image_div img{
+	margin-right: 20px;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	border:5px solid #515151;
+}
+/*ingradients section css end*/
+.plr{
+	padding-left:80px; 
+	padding-right:80px; 
+}
+
+.name{
+	float: left;
+	color: #CD9C07;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Myriad Pro';
+}
+.name h6{
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Myriad Pro';
+}
+
+
+.amount span{
+	float: right;
+	font-size: 18px;
+	font-weight: bold;
+	color: #CD9C07;
+}
+
+hr{
+	/*margin-top: 30px;*/
+	background-color: #CD9C07;
+}
+
+.part p{
+	font-size: 14px;
+	font-family: 'yesevaOne';
+}
+.review{
+	background-image: url(../img/guest_review.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.Guest_overlay{
+	/*justify-content: center;*/
+	margin: 100Px auto;
+	/*position: absolute;*/
+	height: 500px;
+	width: 500px;
+	background-color: rgba(0,0,0,.6);
+	color: #fff!important;
+}
+.Guest_overlay p{
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-size: 20px;
+	font-family: 'yesevaOne';
+}
+.review .Guest_overlay h3{
+	color: #fff;
+}
+.reservations{
+	
+}
+
+.img{
+	padding-right: 20px;
+}
+
+.reservations .img{
+	padding-top:80px;
+	padding-bottom: 100px;
+
+}
+.reservations .img img{
+	height: 100%;
+	width: 100%;
+}
+.reservations .title h3{
+	padding-top: 10px!important;
+}
+
+.reservations .right_food{
+	padding: 10px 55px;
+	text-align: center;
+}
+
+.reservations .right_food p{
+	font-size: 16px;
+	font-family: 'lato';
+}
+
+.reservations .right_food form label{
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	color: #CD9C07;
+}
+.reservations .right_food form .but{
+	font-size: 14px;
+	padding: 6px 60px;
+	color: #fff;
+	background-color: #CD9C07;
+	border:1px solid #CD9C07;
+}
+
+.reservations .right_food form .but:hover{
+	color: #fff;
+	font-weight: bold;
+	background-color: rgba(0,0,0,1);
+	border: 1px solid #000;
+}
+
+.footerDiv{
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+}
+.footerDiv p{
+	font-size: 16px;
+	padding: 0px 10px 20px 10px;
+	text-align: center;
+}
+
+.footerDiv span{
+	display: block;
+	font-size: 16px;
+}
+
+.footerDiv .cards{
+padding-top: 50px;
+}
+.footerDiv .social{
+	margin-top: 45px;
+}
+.footerDiv .social a{
+	color: #fff;
+	padding-left: 10px;
+}
